@@ -20,9 +20,23 @@
 #
 ###############################################################################
 
+"""
 print('Hello, World')
 print('hi there')
 print('one', 'two', 'buckle my shoe')
 
 print(3 + 9)
 print('3 + 9', 'versus', 3 + 9)
+"""
+
+n = 5
+
+for k in range(0, n):
+    numbers = ''
+    for i in range(0, n - k):
+        j = n - k - i
+        numbers = numbers + str(j)
+    print(numbers)
+
+
+
