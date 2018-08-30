@@ -1,5 +1,5 @@
 print('Hello, World')
-
+print('This is a random sentence.')
 ###############################################################################
 #
 #   This line is a COMMENT -- a note to human readers of this file.
@@ -17,7 +17,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #   (Yes, that means for YOU to DO things per these instructions:)
 #
 #   Run this module by right clicking anywhere in this window and selecting
