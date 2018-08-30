@@ -32,7 +32,7 @@ print('This is a random sentence.')
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Notice the small horizontal BLUE bars on the scrollbar-like thing
 #   on the right.  Each blue bar indicates a thing TO-DO in this module.
 #
@@ -57,7 +57,7 @@ print('This is a random sentence.')
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add another   print   statement below the current Line 1 above.
 #   It should print any string that you want (but keep it G-rated!)
 #
@@ -67,10 +67,10 @@ print('This is a random sentence.')
 #   Look at the Run window to be sure that your string printed as expected.
 #
 ###############################################################################
-
+print(3607 * 34227)
 ###############################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   Add yet another   print   statement.
 #   This one should print the *product* of 3,607 and 34,227.
 #   Let the computer do the arithmetic for you (no calculators!).
@@ -84,7 +84,7 @@ print('This is a random sentence.')
 
 ###############################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Look at the list of files in the Project window (to the left).  Note that
 #   this file (m2_todo_and_commit_push.py) is now displayed in BLUE.
 #
