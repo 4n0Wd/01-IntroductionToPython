@@ -133,7 +133,7 @@ bob.pen = rg.Pen('blue', 14)
 bob.speed = 2
 bob.forward(100)
 bob.left(150)
-bob.backward(50)
+bob.backward(51)
 
 ###############################################################################
 #
