@@ -29,7 +29,7 @@ print(3 + 9)
 print('3 + 9', 'versus', 3 + 9)
 """
 
-n = 5
+n = 9
 
 for k in range(0, n):
     numbers = ''
