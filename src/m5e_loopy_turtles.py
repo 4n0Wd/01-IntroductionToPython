@@ -52,9 +52,24 @@ blue_turtle.speed = 80  # Fast
 
 # The first square will be 300 x 300 pixels:
 size = 300
+sizec = 140
+
+red_turtle = rg.SimpleTurtle('turtle')
+red_turtle.pen = rg.Pen('red', 10)
+red_turtle.speed = 40  # slower
+
+for k in range (10):
+
+    red_turtle.draw_circle(sizec)
+    red_turtle.pen_up()
+    red_turtle.left(90)
+    red_turtle.forward(10)
+    red_turtle.right(90)
+    red_turtle.pen_down()
+    sizec = sizec - 10
 
 # Do the indented code 13 times.  Each time draws a square.
-for k in range(30):
+for k in range(15):
 
     # Put the pen down, then draw a square of the given size:
     blue_turtle.draw_square(size)
@@ -70,5 +85,23 @@ for k in range(30):
     # Make the size for the NEXT square be 12 pixels smaller.
     blue_turtle.pen_down()
     size = size - 12
+
+green_turtle = rg.SimpleTurtle('turtle')
+green_turtle.pen = rg.Pen('green', 4)
+green_turtle.speed = 5
+
+sizep = 100
+for k in range (5):
+    green_turtle.draw_regular_polygon(5, sizep)
+    green_turtle.pen_up()
+    green_turtle.left(72)
+    green_turtle.forward(10)
+    green_turtle.right(72)
+    green_turtle.pen_down()
+
+
+    sizep = sizep - 10
+
+
 
 window.close_on_mouse_click()
