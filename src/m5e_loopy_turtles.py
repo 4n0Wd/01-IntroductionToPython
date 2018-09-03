@@ -90,7 +90,7 @@ green_turtle = rg.SimpleTurtle('turtle')
 green_turtle.pen = rg.Pen('green', 4)
 green_turtle.speed = 5
 
-sizep = 100
+sizep = 101
 for k in range (5):
     green_turtle.draw_regular_polygon(5, sizep)
     green_turtle.pen_up()
